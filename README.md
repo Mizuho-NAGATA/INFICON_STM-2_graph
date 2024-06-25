@@ -28,5 +28,5 @@ This Python program is designed to graph the log files of the INFICON STM-2 USB 
 
 ## License
 
-This program was developed with the assistance of ChatGPT. Copyright (c) 2023 NAGATA Mizuho, 永田 みず穂, Institute of Laser Engineering, Osaka University.
+This program was developed with the assistance of ChatGPT. Copyright (c) 2024 NAGATA Mizuho, 永田 みず穂, Institute of Laser Engineering, Osaka University.
 
