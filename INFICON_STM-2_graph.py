@@ -1,5 +1,5 @@
 # -------------------------------------------------------------
-# Program for Graphing INFICON STM-2 Film Thickness Meter Log Files: Displaying Average Rate in Graph Title
+# Graphing INFICON STM-2 USB Thin Film Rate/Thickness Monitor Log Files: Displaying Average Rate in Graph Title
 # This program was developed with the assistance of ChatGPT.
 # Copyright (c) 2023 NAGATA Mizuho. Institute of Laser Engineering, Osaka University.
 # -------------------------------------------------------------
@@ -35,7 +35,7 @@ def read_log_file(filename):
 
 def plot_graph(x, y, title, x_label, y_label, color):
     avg_rate = np.mean(y) if 'Rate' in title else None
-    title = f'{title} (Average Rate: {avg_rate:.2f} Å/s)' if avg_rate else title
+    title = f'{title} (Average Rate: {avg_rate:.2f} ¬Å√∞/s)' if avg_rate else title
     plt.figure(figsize=(8, 6))
     plt.plot(x, y, color=color)
     plt.title(title)
@@ -49,7 +49,7 @@ def plot_all_graphs_in_one_window(time, rate, thick, frequency, title):
 
     avg_rate = np.mean(rate)
     axs[0].plot(time, rate, color='blue')
-    axs[0].set_title(f'Rate vs Time (Average Rate: {avg_rate:.2f} Å/s)')
+    axs[0].set_title(f'Rate vs Time (Average Rate: {avg_rate:.2f} ¬Å√∞/s)')
     axs[0].set_xlabel('Time')
     axs[0].set_ylabel('Rate')
 
