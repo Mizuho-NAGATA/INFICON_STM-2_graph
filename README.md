@@ -1,6 +1,7 @@
 # INFICON STM-2 Log Graphing
 
-This Python program is designed to graph the log files of the INFICON STM-2 USB Thin Film Rate/Thickness Monitor. One of the key features of this program is its ability to display the average rate in the graph title, providing a quick and easy way to understand the data.
+This Python program is designed to graph the log files of the INFICON STM-2 USB Thin Film Rate/Thickness Monitor. One of the key features of this program is its ability to display the average rate in the graph title, providing a quick and easy way to understand the data.  
+このPythonプログラムはINFICON STM-2 USB薄膜レート/膜厚モニターのログファイルをグラフ化するためにデザインされています。このプログラムの主な特徴の1つは、グラフタイトルに平均レートを表示する機能で、素早く簡単にデータを理解する方法を提供します。
 
 ## Features
 
