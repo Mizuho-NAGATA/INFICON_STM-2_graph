@@ -1,7 +1,9 @@
 # -------------------------------------------------------------
 # Graphing INFICON STM-2 USB Thin Film Rate/Thickness Monitor Log Files: Displaying Average Rate in Graph Title
 # This program was developed with the assistance of ChatGPT.
-# Copyright (c) 2023 NAGATA Mizuho. Institute of Laser Engineering, Osaka University.
+# Copyright (c) 2024 NAGATA Mizuho. Institute of Laser Engineering, Osaka University.
+# Created on: 2024-05-15
+# Last updated on: 2024-06-25
 # -------------------------------------------------------------
 import tkinter as tk
 from tkinter import filedialog, simpledialog
