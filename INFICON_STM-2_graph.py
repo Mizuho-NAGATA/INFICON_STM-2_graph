@@ -37,7 +37,7 @@ def read_log_file(filename):
 
 def plot_graph(x, y, title, x_label, y_label, color):
     avg_rate = np.mean(y) if 'Rate' in title else None
-    title = f'{title} (Average Rate: {avg_rate:.2f} ð/s)' if avg_rate else title
+    title = f'{title} (Average Rate: {avg_rate:.2f} \u212B/s)' if avg_rate else title
     plt.figure(figsize=(8, 6))
     plt.plot(x, y, color=color)
     plt.title(title)
@@ -51,7 +51,7 @@ def plot_all_graphs_in_one_window(time, rate, thick, frequency, title):
 
     avg_rate = np.mean(rate)
     axs[0].plot(time, rate, color='blue')
-    axs[0].set_title(f'Rate vs Time (Average Rate: {avg_rate:.2f} ð/s)')
+    axs[0].set_title(f'Rate vs Time (Average Rate: {avg_rate:.2f} \u212B/s)')
     axs[0].set_xlabel('Time')
     axs[0].set_ylabel('Rate')
 
