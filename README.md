@@ -3,9 +3,9 @@ This Python program is designed to graph the log files of the INFICON STM-2 USB 
 
 このPythonプログラムはINFICON STM-2 USB薄膜レート/膜厚モニターのログファイルをグラフ化するためにデザインされています。このプログラムの主な特徴の1つは、グラフタイトルに平均レートを表示する機能で、素早く簡単にデータを理解することができます。
 
-**注意：このプログラムはINFICON社の公式なものではありません。**  
+**注意：このプログラムはINFICON社の公式なものではありません。**
 
-**Note: This program is not official INFICON. **  
+**Note: This program is not official INFICON.**
 
 ![240624 Cu rate thick freq_](https://github.com/Mizuho-NAGATA/INFICON_STM-2_graph/assets/139824384/7514e6f2-7d17-48c8-8f14-cca761639884)
 ![240624 Cu rate_](https://github.com/Mizuho-NAGATA/INFICON_STM-2_graph/assets/139824384/24cf5922-6362-4954-b1f5-521b89c14790)
