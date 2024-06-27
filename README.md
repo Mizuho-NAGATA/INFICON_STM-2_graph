@@ -7,8 +7,9 @@ This Python program is designed to graph the log files of the INFICON STM-2 USB 
 
 **Note: This program is not official INFICON.**
 
-![240624 Cu rate thick freq_](https://github.com/Mizuho-NAGATA/INFICON_STM-2_graph/assets/139824384/7514e6f2-7d17-48c8-8f14-cca761639884)
-![240624 Cu rate_](https://github.com/Mizuho-NAGATA/INFICON_STM-2_graph/assets/139824384/24cf5922-6362-4954-b1f5-521b89c14790)
+<img src="https://github.com/Mizuho-NAGATA/INFICON_STM-2_graph/assets/139824384/7514e6f2-7d17-48c8-8f14-cca761639884" width="400">
+<img src="https://github.com/Mizuho-NAGATA/INFICON_STM-2_graph/assets/139824384/24cf5922-6362-4954-b1f5-521b89c14790" width="400">
+
 ## Features
 
 - Reads log files from the INFICON STM-2 USB Thin Film Rate/Thickness Monitor.
