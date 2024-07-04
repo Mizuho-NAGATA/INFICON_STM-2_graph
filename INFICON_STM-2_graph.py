@@ -3,7 +3,7 @@
 # This program was developed with the assistance of ChatGPT.
 # Copyright (c) 2024 NAGATA Mizuho. Institute of Laser Engineering, Osaka University.
 # Created on: 2024-05-15
-# Last updated on: 2024-06-25
+# Last updated on: 2024-07-04
 # -------------------------------------------------------------
 import tkinter as tk
 from tkinter import filedialog, simpledialog
@@ -72,7 +72,7 @@ def select_file_and_plot():
     root = tk.Tk()
     root.withdraw()
 
-    file_path = filedialog.askopenfilename(filetypes=[('Log Files', '*.log')])
+    file_path = filedialog.askopenfilename(title="Select log file", filetypes=[('Log Files', '*.log')])
     if file_path:
         time, rate, thick, frequency = read_log_file(file_path)
 
