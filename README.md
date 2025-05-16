@@ -9,8 +9,6 @@ This Python program is designed to graph the log files of the INFICON STM-2 USB 
 
 <img src="https://github.com/user-attachments/assets/a641cd46-c0b4-459e-8640-a15197d4259a" width="400">
 <img src="https://github.com/user-attachments/assets/b0240cef-47a5-4da9-ba1c-040d399f5605" width="400">
-<img src="https://github.com/Mizuho-NAGATA/INFICON_STM-2_graph/assets/139824384/7514e6f2-7d17-48c8-8f14-cca761639884" width="400">
-<img src="https://github.com/Mizuho-NAGATA/INFICON_STM-2_graph/assets/139824384/24cf5922-6362-4954-b1f5-521b89c14790" width="400">
 
 ## Features
 
