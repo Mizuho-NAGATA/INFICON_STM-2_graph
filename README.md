@@ -7,20 +7,16 @@ This Python program is designed to graph the log files of the INFICON STM-2 USB 
 
 **Note: This program is not official INFICON.**
 
-レートの単位はÅ/sです。あなたの設定に合わせて適宜書き換えてください。
-
-The unit of rate is Å/s. Rewrite accordingly to suit your setup.
-
 <img src="https://github.com/Mizuho-NAGATA/INFICON_STM-2_graph/assets/139824384/7514e6f2-7d17-48c8-8f14-cca761639884" width="400">
 <img src="https://github.com/Mizuho-NAGATA/INFICON_STM-2_graph/assets/139824384/24cf5922-6362-4954-b1f5-521b89c14790" width="400">
 
 ## Features
 
-- Reads log files from the INFICON STM-2 USB Thin Film Rate/Thickness Monitor.
-- Plots the rate, thickness, and frequency over time.
-- Displays each graph in a separate window.
-- Also combines all three graphs into one window for easy comparison.
-- Calculates and displays the average rate in the graph title.
+- INFICON STM-2 USB 薄膜レート/厚さモニターのログファイルを読み取ります。
+- レート、厚さ、周波数を時間経過とともにプロットします。
+- 各グラフを別々のウィンドウに表示します。
+- 3つのグラフを1つのウィンドウにまとめて比較しやすくします。
+- 平均レートを計算し、グラフのタイトルに表示します。
 
 ## Usage
 
